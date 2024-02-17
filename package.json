@@ -1,0 +1,19 @@
+{
+  "name": "playwright-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "task1": "playwright test tests\task1_symphony.spec.ts",
+    "task2": "playwright test tests\task2_symphony.spec.ts",
+    "show-report": "npx playwright show-report",
+    "show-report-html": "npx playwright test --reporter=html"
+  },
+  "keywords": [],
+  "author": "Imekan Enang",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.41.2",
+    "@types/node": "^20.11.19"
+  }
+}
