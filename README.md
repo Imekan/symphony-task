@@ -2,8 +2,8 @@
 
 This repository contains solutions for Symphony Tasks
 
-1. Automated API tests for Task One.
-2. Automated UI tests for Task Two.
+1. Playwright Automated API tests for Task One.
+2. Automated UI tests for Task Two using playwright.
 
 ## Pre-requisites
 
@@ -38,8 +38,7 @@ npm run show-report-html
 ```
 
 ### Generate report
-<!-- Describe the use of allure rporting. -->
-I integrated Allure reporting to the project to generate a report after running the tests. To generate the report, run the following command after running the tests.
+I integrated basic HTML reporting which is one of playwright's features  to generate a report after running the tests. To generate the report, run the following command after running the tests.
 
 ```bash
 npm run show-report
@@ -57,7 +56,7 @@ npm run show-report
  npm run task2
  ```
 
-## Running tests in Gitlab CI/CD
+## Running tests in Github CI/CD
 
 The CI/CD pipeline is configured in the `.gitlab-ci.yml` file to run the automated test on GitLab or Github using the playwright Docker runner.
 
@@ -67,8 +66,6 @@ To run the tests in Github CI/CD, push the code to the repository and the pipeli
 
 [@Imekan Enang](https://www.github.com/Imekan/)|
 
-## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://gitlab.com/bobb-rob/api-task-playwright/-/issues).
+
